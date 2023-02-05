@@ -1,88 +1,87 @@
 export const exploreWorlds = [
   {
-    id: 'world-1',
-    imgUrl: '/planet-01.png',
-    title: 'The Hogwarts',
+    id: "world-1",
+    imgUrl: "/planet-01.png",
+    title: "Safe Team",
   },
   {
-    id: 'world-2',
-    imgUrl: '/planet-02.png',
-    title: 'The Upside Down',
+    id: "world-2",
+    imgUrl: "/planet-02.png",
+    title: "Big Marketing Plan",
   },
   {
-    id: 'world-3',
-    imgUrl: '/planet-03.png',
-    title: 'Kadirojo Permai',
+    id: "world-3",
+    imgUrl: "/planet-03.png",
+    title: "Bullish Community",
   },
   {
-    id: 'world-4',
-    imgUrl: '/planet-04.png',
-    title: 'Paradise Island',
+    id: "world-4",
+    imgUrl: "/planet-04.png",
+    title: "2% Rewards Token",
   },
   {
-    id: 'world-5',
-    imgUrl: '/planet-05.png',
-    title: 'Hawkins Labs',
+    id: "world-5",
+    imgUrl: "/planet-05.png",
+    title: "Supported by Big callers",
   },
 ];
 
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading basmalah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
+  "Step 1: Get some BNB (BSC)",
+  "Step 2: Connect Wallet",
+  "Step 3: Set Slippage and BNB (BSC)",
+  "Step 4: Swap Tokens",
 ];
 
 export const newFeatures = [
   {
-    imgUrl: '/vrpano.svg',
-    title: 'A new world',
+    imgUrl: "/vrpano.svg",
+    title: "A new concept",
     subtitle:
-        'we have the latest update with new world for you to try never mind',
+      "A safe and well connected team as well as some bullish marketing.",
   },
   {
-    imgUrl: '/headset.svg',
-    title: 'More realistic',
+    imgUrl: "/headset.svg",
+    title: "Huge Potential",
     subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+      "well connected and are partnered up with some very based names that are supporting and helping push",
   },
 ];
 
 export const insights = [
   {
-    imgUrl: '/planet-06.png',
-    title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
-    subtitle:
-        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+    imgUrl: "/owner.jpg",
+    title: "Tyquil",
+    subtitle: "Project Dev",
+    link: "https://t.me/tyquil",
   },
   {
-    imgUrl: '/planet-07.png',
-    title: '7 tips to easily master the madness of the Metaverse',
-    subtitle:
-        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
-  },
-  {
-    imgUrl: '/planet-08.png',
-    title: 'With one platform you can explore the whole world virtually',
-    subtitle:
-        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+    imgUrl: "/cranky.jpg",
+    title: "Cranky",
+    subtitle: "Project Marketer",
+    link: "https://t.me/crankycalls",
   },
 ];
 
 export const socials = [
   {
-    name: 'twitter',
-    url: '/twitter.svg',
+    name: "telegram",
+    url: "/telegram-svgrepo-com.svg",
+    link: "https://t.me/BabyKing_BSC",
   },
   {
-    name: 'linkedin',
-    url: '/linkedin.svg',
+    name: "Website",
+    url: "/web.svg",
+    link: "http://babyking.live/",
   },
   {
-    name: 'instagram',
-    url: '/instagram.svg',
+    name: "Poocoin",
+    url: "/poocoin.svg",
+    link: "https://poocoin.app/tokens/0x72022b9513973db1d2613c522fb51a990133cf00",
   },
   {
-    name: 'facebook',
-    url: '/facebook.svg',
+    name: "Pancakeswap",
+    url: "/pancake.svg",
+    link: "https://pancakeswap.finance/swap?outputCurrency=0x72022b9513973DB1D2613C522fB51A990133Cf00",
   },
 ];
