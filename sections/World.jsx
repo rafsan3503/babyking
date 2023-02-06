@@ -1,10 +1,10 @@
-"use client";
+'use client';
 
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion';
 
-import styles from "../styles";
-import { TitleText, TypingText } from "../components";
-import { fadeIn, staggerContainer } from "../utils/motion";
+import styles from '../styles';
+import { TitleText, TypingText } from '../components';
+import { fadeIn, staggerContainer } from '../utils/motion';
 
 const World = () => (
   <section className={`${styles.paddings} relative z-10`}>
@@ -19,7 +19,7 @@ const World = () => (
       <TitleText title={<>Baby King Taxation</>} textStyles="text-center" />
 
       <motion.div
-        variants={fadeIn("up", "tween", 0.3, 1)}
+        variants={fadeIn('up', 'tween', 0.3, 1)}
         className="relative mt-[68px] flex w-full h-[550px]"
       >
         <img src="/map.png" alt="map" className="w-full h-full object-cover" />
@@ -38,37 +38,37 @@ const World = () => (
           <img src="people-03.png" alt="people" className="w-full h-full" />
           <TypingText title="| 1M Supply" textStyles="text-center" />
         </div> */}
-        <div class="px-4 absolute w-full py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-          <div class="grid grid-cols-2 row-gap-8 md:grid-cols-4">
-            <div class="text-center md:border-r">
-              <h6 class="text-4xl font-bold text-white lg:text-5xl xl:text-6xl">
+        <div className="px-4 absolute w-full py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+          <div className="grid grid-cols-2 row-gap-8 md:grid-cols-4">
+            <div className="text-center md:border-r">
+              <h6 className="text-4xl font-bold text-white lg:text-5xl xl:text-6xl">
                 1M
               </h6>
-              <p class="text-sm font-medium tracking-widest text-white uppercase lg:text-base">
+              <p className="text-sm font-medium tracking-widest text-white uppercase lg:text-base">
                 Total Supply
               </p>
             </div>
-            <div class="text-center md:border-r">
-              <h6 class="text-4xl font-bold lg:text-5xl text-white xl:text-6xl">
+            <div className="text-center md:border-r">
+              <h6 className="text-4xl font-bold lg:text-5xl text-white xl:text-6xl">
                 11%
               </h6>
-              <p class="text-sm font-medium tracking-widest text-white uppercase lg:text-base">
+              <p className="text-sm font-medium tracking-widest text-white uppercase lg:text-base">
                 Buy
               </p>
             </div>
-            <div class="text-center md:border-r">
-              <h6 class="text-4xl font-bold lg:text-5xl text-white xl:text-6xl">
+            <div className="text-center md:border-r">
+              <h6 className="text-4xl font-bold lg:text-5xl text-white xl:text-6xl">
                 11%
               </h6>
-              <p class="text-sm font-medium tracking-widest text-white uppercase lg:text-base">
+              <p className="text-sm font-medium tracking-widest text-white uppercase lg:text-base">
                 Sell
               </p>
             </div>
-            <div class="text-center">
-              <h6 class="text-4xl font-bold lg:text-5xl text-white xl:text-6xl">
+            <div className="text-center">
+              <h6 className="text-4xl font-bold lg:text-5xl text-white xl:text-6xl">
                 2 BNB
               </h6>
-              <p class="text-sm font-medium tracking-widest text-white uppercase lg:text-base">
+              <p className="text-sm font-medium tracking-widest text-white uppercase lg:text-base">
                 Starting LP
               </p>
             </div>

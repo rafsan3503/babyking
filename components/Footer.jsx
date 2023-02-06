@@ -1,10 +1,10 @@
-"use client";
+'use client';
 
-import { motion } from "framer-motion";
-import { socials } from "../constants";
+import { motion } from 'framer-motion';
+import { socials } from '../constants';
 
-import styles from "../styles";
-import { footerVariants } from "../utils/motion";
+import styles from '../styles';
+import { footerVariants } from '../utils/motion';
 
 const Footer = () => (
   <motion.footer
@@ -23,7 +23,7 @@ const Footer = () => (
           type="button"
           className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]"
         >
-          <a href="https://t.me/BabyKing_BSC" target="_blank">
+          <a href="https://t.me/BabyKing_BSC" target="_blank" rel="noreferrer">
             <span className="font-normal text-[16px] text-white">
               Enter BabyKing
             </span>
@@ -42,7 +42,7 @@ const Footer = () => (
 
           <div className="flex gap-4">
             {socials.map((social) => (
-              <a href={social.link} target="_blank">
+              <a href={social.link} target="_blank" rel="noreferrer">
                 <img
                   key={social.name}
                   src={social.url}
