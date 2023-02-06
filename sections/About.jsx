@@ -25,7 +25,7 @@ const About = () => (
         <span className="font-extrabold text-white">Baby King</span> is the
         official Baby coin for King bringing you all 2% rewards, a safe and well
         connected team as well as some bullish marketing.
-        <span className="font-extrabold text-white">explore</span> the madness
+        <span className="font-extrabold text-white">Explore</span> the madness
         of the Baby King by scrolling down
       </motion.p>
 
